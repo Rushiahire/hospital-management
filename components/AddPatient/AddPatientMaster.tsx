@@ -13,12 +13,12 @@ import DateTimeInput from "../common/DateTimeInput";
 const PATIENT = Object.freeze({
   name: "Shubham Naik",
   phone: "+91 9876543210",
-  avatar: "https://randomuser.me/api/portraits/men/1.jpg",
+  avatar: "/assets/images/img.png",
 });
 const PRACTITIONER = Object.freeze({
   name: "Saria Dilon",
   phone: "+91 9876543210",
-  avatar: "https://randomuser.me/api/portraits/women/2.jpg",
+  avatar: "/assets/images/img.png",
 });
 
 const INITIAL_FORM = Object.freeze({

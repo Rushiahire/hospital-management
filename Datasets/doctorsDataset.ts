@@ -2,7 +2,7 @@ export const doctors = [
   {
     name: "Dr. Tejas Sharma",
     phone: "+91 98765 43210",
-    avatar: "https://randomuser.me/api/portraits/men/40.jpg",
+    avatar: "/assets/images/img.png",
     expertise: "Gynaecology",
     gender: "Male",
     mode: "In-Person & Online",
@@ -11,7 +11,7 @@ export const doctors = [
   {
     name: "Dr. Priya Kapoor",
     phone: "+91 98765 43210",
-    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+    avatar: "/assets/images/img.png",
     expertise: "Psychology",
     gender: "Female",
     mode: "Online",
@@ -20,7 +20,7 @@ export const doctors = [
   {
     name: "Dr. Pranav Saxena",
     phone: "+91 98765 43210",
-    avatar: "https://randomuser.me/api/portraits/men/44.jpg",
+    avatar: "/assets/images/img.png",
     expertise: "Counseling",
     gender: "Male",
     mode: "In-Person",
@@ -29,7 +29,7 @@ export const doctors = [
   {
     name: "Dr. Toshit Bagde",
     phone: "+91 98765 543210",
-    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
+    avatar: "/assets/images/img.png",
     expertise: "Therapy",
     gender: "Male",
     mode: "Online",
