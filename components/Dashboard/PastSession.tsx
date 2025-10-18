@@ -28,7 +28,7 @@ const PastSession = () => {
   return (
     <div
       className="container px-4 rounded-4 pt-2"
-      style={{ paddingBottom: "90px" }}
+      style={{ paddingBottom: "90px", minHeight: "300px" }}
     >
       <div className="fw-600 fs-14 mb-2">Past Sessions</div>
       <div>{sessionCards}</div>
