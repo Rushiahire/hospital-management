@@ -1,0 +1,16 @@
+.main_container {
+  background: linear-gradient(90deg, #b9a8ee 0%, #f4b6b8 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 174px;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.name {
+  font-size: 19px;
+  font-weight: 600;
+}

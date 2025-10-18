@@ -1,0 +1,18 @@
+.card {
+  height: 164px;
+  background-color: #ffffff80 50%;
+}
+
+.session_time {
+  font-size: 16px;
+}
+
+.city {
+  font-size: 12px;
+  color: #6d6a5d;
+}
+
+.doctor_name {
+  font-size: 16px;
+  font-weight: 600;
+}

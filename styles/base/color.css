@@ -1,0 +1,14 @@
+:root {
+  --grey-color: #b7b7b7;
+  --light-grey-color: #6d6a5d;
+}
+
+/* 0F1339 */
+
+.grey-color {
+  color: var(--grey-color);
+}
+
+.light-grey-color {
+  color: var(--light-grey-color);
+}

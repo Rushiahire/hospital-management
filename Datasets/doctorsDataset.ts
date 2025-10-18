@@ -1,0 +1,38 @@
+export const doctors = [
+  {
+    name: "Dr. Tejas Sharma",
+    phone: "+91 98765 43210",
+    avatar: "https://randomuser.me/api/portraits/men/40.jpg",
+    expertise: "Gynaecology",
+    gender: "Male",
+    mode: "In-Person & Online",
+    fee: "₹1,500/-",
+  },
+  {
+    name: "Dr. Priya Kapoor",
+    phone: "+91 98765 43210",
+    avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+    expertise: "Psychology",
+    gender: "Female",
+    mode: "Online",
+    fee: "₹1,200/-",
+  },
+  {
+    name: "Dr. Pranav Saxena",
+    phone: "+91 98765 43210",
+    avatar: "https://randomuser.me/api/portraits/men/44.jpg",
+    expertise: "Counseling",
+    gender: "Male",
+    mode: "In-Person",
+    fee: "₹1,800/-",
+  },
+  {
+    name: "Dr. Toshit Bagde",
+    phone: "+91 98765 543210",
+    avatar: "https://randomuser.me/api/portraits/men/45.jpg",
+    expertise: "Therapy",
+    gender: "Male",
+    mode: "Online",
+    fee: "₹1,000/-",
+  },
+];

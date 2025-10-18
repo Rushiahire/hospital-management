@@ -1,0 +1,29 @@
+.pastSessionCard {
+  background: #ffffff80;
+  min-height: 65px;
+  box-shadow: 0 0 0 0 #0000;
+}
+
+.timeCol {
+  color: #000000;
+  min-width: 90px;
+  text-align: left;
+  margin-top: 2px;
+}
+
+.doctorCol {
+  text-align: left;
+  flex: 1;
+  margin-left: 0.5rem !important; /* equivalent to ms-2 */
+}
+
+.doctorName {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600; /* fw-semibold */
+}
+
+.prevSession {
+  margin-top: 1px;
+  color: #6d6a5d;
+}
