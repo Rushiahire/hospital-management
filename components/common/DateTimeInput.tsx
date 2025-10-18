@@ -11,7 +11,11 @@ const DateTimeInput = ({
   ...props
 }: any) => (
   <div>
-    {label && <label className={`mb-1 ${styles.sectionLabel}`}>{label}</label>}
+    {label && (
+      <label htmlFor={label} className={`mb-1 ${styles.sectionLabel}`}>
+        {label}
+      </label>
+    )}
     <input
       type={type}
       className={`${styles.inputBox} form-control ${className}`}

@@ -11,6 +11,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <title>Hospital Management - Home</title>
+        <meta
+          name="description"
+          content="Hospital Management System for appointment scheduling, doctor management, and patient care."
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
           rel="stylesheet"

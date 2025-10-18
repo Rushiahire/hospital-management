@@ -12,13 +12,13 @@ const DoctorSearchBar = () => (
       placeholder="Search psychologists..."
       style={{ background: "#fff", borderRadius: "10px" }}
     />
-    <button className={`btn ${styles.searchBtn}`}>
+    <button className={`btn ${styles.searchBtn}`} aria-label="search">
       <CiSearch size={21} />
     </button>
-    <button className={`btn ${styles.searchBtn}`}>
+    <button className={`btn ${styles.searchBtn}`} aria-label="apps">
       <IoAppsOutline size={21} />
     </button>
-    <button className={`btn ${styles.filterBtn}`}>
+    <button className={`btn ${styles.filterBtn}`} aria-label="filter">
       <CiFilter size={21} />
     </button>
   </div>

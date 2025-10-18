@@ -11,7 +11,11 @@ const ScheduleNowButton = () => {
 
   return (
     <div className={`container ${styles.scheduleButtonWrapper} mt-5`}>
-      <button className={styles.scheduleButton} onClick={handleScheduleBtn}>
+      <button
+        className={styles.scheduleButton}
+        onClick={handleScheduleBtn}
+        aria-label="schedule now button"
+      >
         Schedule Now
       </button>
     </div>

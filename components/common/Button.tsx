@@ -27,6 +27,7 @@ const Button: React.FC<ButtonProps> = ({
         border: "none",
         ...style,
       }}
+      aria-label={text}
       onClick={onClick}
       disabled={disabled}
     >

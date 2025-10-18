@@ -108,6 +108,7 @@ const DoctorCard = () => {
                   <button
                     className={styles.bookBtn}
                     onClick={() => handleBookNowBtn(d)}
+                    aria-label="Book now"
                   >
                     Book Now
                   </button>

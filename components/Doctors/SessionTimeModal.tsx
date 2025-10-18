@@ -109,6 +109,7 @@ const SessionTimeModal = ({
             className={modalStyles.closeBtn}
             onClick={handleCancel}
             type="button"
+            aria-label="search"
           >
             <RxCross2 size={25} className="text-dark" />
           </button>
@@ -119,6 +120,7 @@ const SessionTimeModal = ({
             className={modalStyles.cancelBtn}
             onClick={handleCancel}
             type="button"
+            aria-label="cancel"
           >
             Cancel
           </button>
@@ -127,6 +129,7 @@ const SessionTimeModal = ({
             onClick={handleConfirm}
             disabled={!selectedSlot}
             type="button"
+            aria-label="confirm"
           >
             Confirm
           </button>

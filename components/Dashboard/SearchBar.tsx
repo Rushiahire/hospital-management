@@ -1,6 +1,5 @@
 import { CiFilter, CiSearch } from "react-icons/ci";
 import styles from "@/styles/dashboard/searchbar.module.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { memo } from "react";
 
 const SearchBar = () => {
@@ -12,11 +11,11 @@ const SearchBar = () => {
           className={`${styles.inputField} py-2`}
           placeholder="Search Psychologists..."
         />
-        <button className={styles.searchBtn}>
+        <button className={styles.searchBtn} aria-label="Search">
           <CiSearch size={22} color="#868686" />
         </button>
       </div>
-      <button className={styles.filterBtn}>
+      <button className={styles.filterBtn} aria-label="filter">
         <CiFilter size={22} color="#868686" />
       </button>
     </div>

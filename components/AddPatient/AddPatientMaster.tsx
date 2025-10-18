@@ -110,7 +110,11 @@ const AddPatientMaster = () => {
 
         <div className="row pt-2">
           <div className="col-6">
-            <label className={`mb-2 fs-14`} style={{ color: "#807f8b" }}>
+            <label
+              htmlFor="sessionDate"
+              className={`mb-2 fs-14`}
+              style={{ color: "#807f8b" }}
+            >
               Session Date
             </label>
             <DateTimeInput
@@ -123,7 +127,11 @@ const AddPatientMaster = () => {
             />
           </div>
           <div className="col-6">
-            <label className={`mb-2 fs-14`} style={{ color: "#807f8b" }}>
+            <label
+              htmlFor="sessionTime"
+              className={`mb-2 fs-14`}
+              style={{ color: "#807f8b" }}
+            >
               Session Time Slot
             </label>
             <DateTimeInput
