@@ -40,7 +40,7 @@ const SessionTimeModal = ({
     toast.success(
       `Slot Selected ${selectedSlot?.section} at ${selectedSlot?.value} for ${availableDoctor?.name} `
     );
-  }, [selectedSlot, onConfirm]);
+  }, [selectedSlot, onConfirm, availableDoctor?.name]);
 
   // sessionSlots is static; memoize just for habit/consistency
   const sessionSlotsData = useMemo(() => sessionSlots, []);

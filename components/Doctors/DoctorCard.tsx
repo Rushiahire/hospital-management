@@ -3,6 +3,7 @@ import styles from "@/styles/doctors/doctors.module.css";
 import { memo, useCallback, useState, useMemo } from "react";
 import { MdExpandLess, MdExpandMore } from "react-icons/md";
 import SessionTimeModal from "./SessionTimeModal";
+import Image from "next/image";
 
 // If your doctors dataset is static for the page, you may use useMemo
 const DoctorCard = () => {
@@ -34,7 +35,7 @@ const DoctorCard = () => {
               className={expanded ? styles.expandedCard : styles.card}
             >
               <div className={styles.doctorRow}>
-                <img className={styles.avatar} src={d.avatar} alt={d.name} />
+                <Image className={styles.avatar} src={d.avatar} alt={d.name} />
                 <div className={`${styles.namePhone} ps-3`}>
                   <div className={`${styles.name} fs-14 fw-600 mb-0`}>
                     {d.name}

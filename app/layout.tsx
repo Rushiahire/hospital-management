@@ -16,7 +16,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </Head>
-      <body className={` antialiased`}>
+      <body>
         <ToastContainer
           position="top-right"
           autoClose={2000}
