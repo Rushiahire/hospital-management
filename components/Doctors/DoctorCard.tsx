@@ -35,7 +35,13 @@ const DoctorCard = () => {
               className={expanded ? styles.expandedCard : styles.card}
             >
               <div className={styles.doctorRow}>
-                <Image className={styles.avatar} src={d.avatar} alt={d.name} />
+                <Image
+                  className={styles.avatar}
+                  src={d.avatar}
+                  alt={d.name}
+                  width={40} // specify the width
+                  height={40} // specify the height
+                />
                 <div className={`${styles.namePhone} ps-3`}>
                   <div className={`${styles.name} fs-14 fw-600 mb-0`}>
                     {d.name}
